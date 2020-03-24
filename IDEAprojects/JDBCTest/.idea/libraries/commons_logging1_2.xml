@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commons-logging1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JDBCTest/libs/commons-logging1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

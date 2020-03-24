@@ -1,0 +1,30 @@
+<c3p0-config>
+
+
+    <!-- 创建CombopooledDataSource 的时候默认会读取的配置  -->
+    <default-config>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/colour_cold?serverTimezone=GMT%2B8</property>
+        <property name="user">root</property>
+        <property name="password">123456</property>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <!-- 连接池参数-->
+        <!-- 初始化申请的连接数量-->
+        <property name="initialPoolSize">3</property>
+        <!-- 最大的连接数量-->
+        <property name="maxPoolSize">6</property>
+        <!-- 超时时间-->
+        <property name="checkoutTimeout">3000</property>
+        <!--    <property name="maxIdleTime">3000</property>-->
+    </default-config>
+
+    <named-config name="otherc3p0">
+        <!-- 连接池参数-->
+        <!-- 初始化申请的连接数量-->
+        <property name="initialPoolSize">6</property>
+        <!-- 最大的连接数量-->
+        <property name="maxPoolSize">10</property>
+        <!-- 超时时间-->
+        <property name="checkoutTimeout">1000</property>
+    </named-config>
+
+</c3p0-config>

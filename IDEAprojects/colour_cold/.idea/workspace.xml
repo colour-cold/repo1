@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c6ad16b-6982-4c67-97b2-a5f83e32f7b7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="colour_cold" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="FxmlFile" />
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QSCK8D3uy83xGfH3ivWFhdCtvY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567655933583" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\colour_cold\src\MethodReferrance" />
+      <recent name="D:\IdeaProjects\colour_cold\src\TCPIP\Case" />
+      <recent name="D:\IdeaProjects\colour_cold\src\Thread\ThreadSafeLock11" />
+      <recent name="D:\IdeaProjects\colour_cold\src\Thread\ThreadSafesynchronized10" />
+      <recent name="D:\IdeaProjects\colour_cold\src\Thread\ThreadSafe09" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Annotation.Test" />
+      <recent name="Annotation" />
+      <recent name="Test.Reflect" />
+      <recent name="MethodReferrance.MethodReferranceTest02" />
+      <recent name="Stream" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\colour_cold\src\TCPIP\CaseNew" />
+      <recent name="D:\IdeaProjects\colour_cold\src\TCPIP" />
+      <recent name="D:\IdeaProjects\colour_cold\src\IO\Test08" />
+      <recent name="D:\IdeaProjects\colour_cold\src\IO" />
+      <recent name="D:\IdeaProjects\colour_cold\src\IO\OutputStream" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HelloWorld">
+    <configuration name="BallGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BallGame.BallGame" />
+      <module name="colour_cold" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BallGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="colour_cold" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.StreamCase.StreamCase" />
+      <module name="colour_cold" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.StreamCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamLimit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.StreamLimit" />
+      <module name="colour_cold" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.StreamTest01" />
+      <module name="colour_cold" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.BallGame" />
+        <item itemvalue="Application.StreamCase" />
+        <item itemvalue="Application.StreamLimit" />
+        <item itemvalue="Application.StreamTest01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c6ad16b-6982-4c67-97b2-a5f83e32f7b7" name="Default Changelist" comment="" />
+      <created>1546949058319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546949058319</updated>
+      <workItem from="1546949061617" duration="12529000" />
+      <workItem from="1547004579216" duration="35127000" />
+      <workItem from="1547084043899" duration="7978000" />
+      <workItem from="1558946766625" duration="599000" />
+      <workItem from="1559017529748" duration="1330000" />
+      <workItem from="1562302992819" duration="2056000" />
+      <workItem from="1562386555287" duration="238000" />
+      <workItem from="1562551108776" duration="3539000" />
+      <workItem from="1562643679340" duration="687000" />
+      <workItem from="1562813204768" duration="1123000" />
+      <workItem from="1562897271648" duration="11387000" />
+      <workItem from="1562984387076" duration="5234000" />
+      <workItem from="1563070507218" duration="6591000" />
+      <workItem from="1563155237688" duration="1394000" />
+      <workItem from="1563242239266" duration="1201000" />
+      <workItem from="1563328959163" duration="9018000" />
+      <workItem from="1563414658543" duration="1204000" />
+      <workItem from="1563508609989" duration="3185000" />
+      <workItem from="1563845477571" duration="1905000" />
+      <workItem from="1563932205552" duration="2616000" />
+      <workItem from="1564018798233" duration="3186000" />
+      <workItem from="1564107972321" duration="3916000" />
+      <workItem from="1564195667377" duration="666000" />
+      <workItem from="1564279906930" duration="5267000" />
+      <workItem from="1564453999411" duration="6668000" />
+      <workItem from="1564889031759" duration="3753000" />
+      <workItem from="1565314358965" duration="599000" />
+      <workItem from="1565401172099" duration="982000" />
+      <workItem from="1565489252930" duration="4853000" />
+      <workItem from="1565660604772" duration="9454000" />
+      <workItem from="1565833768120" duration="1265000" />
+      <workItem from="1565835427237" duration="8481000" />
+      <workItem from="1566091488760" duration="3148000" />
+      <workItem from="1566178418257" duration="3189000" />
+      <workItem from="1567389347192" duration="2172000" />
+      <workItem from="1567472705014" duration="599000" />
+      <workItem from="1567519327463" duration="1216000" />
+      <workItem from="1567559058473" duration="5886000" />
+      <workItem from="1567651439651" duration="2674000" />
+      <workItem from="1567754551338" duration="186000" />
+      <workItem from="1567996872455" duration="644000" />
+      <workItem from="1568039537100" duration="2297000" />
+      <workItem from="1568080578912" duration="3260000" />
+      <workItem from="1568721978213" duration="421000" />
+      <workItem from="1568956904653" duration="855000" />
+      <workItem from="1569322200783" duration="1808000" />
+      <workItem from="1570171903977" duration="13000" />
+      <workItem from="1570171934110" duration="35000" />
+      <workItem from="1573715990213" duration="1119000" />
+      <workItem from="1574170556219" duration="3913000" />
+      <workItem from="1574257050056" duration="961000" />
+      <workItem from="1574306605209" duration="9134000" />
+      <workItem from="1574393484550" duration="10968000" />
+      <workItem from="1574473341418" duration="12795000" />
+      <workItem from="1574731417732" duration="3677000" />
+      <workItem from="1575074329611" duration="5000" />
+      <workItem from="1575115902712" duration="6566000" />
+      <workItem from="1576216285500" duration="1000" />
+      <workItem from="1576216676539" duration="16000" />
+      <workItem from="1577360824806" duration="3613000" />
+      <workItem from="1577431982878" duration="3322000" />
+      <workItem from="1578453881158" duration="8000" />
+      <workItem from="1578726676676" duration="2416000" />
+      <workItem from="1579574778807" duration="2791000" />
+      <workItem from="1580367479051" duration="4867000" />
+      <workItem from="1580534539466" duration="12187000" />
+      <workItem from="1580618701851" duration="612000" />
+      <workItem from="1581303453474" duration="7048000" />
+      <workItem from="1581340875018" duration="2399000" />
+      <workItem from="1581390095020" duration="12983000" />
+      <workItem from="1581473545247" duration="23720000" />
+      <workItem from="1581560780130" duration="14591000" />
+      <workItem from="1581646388902" duration="23649000" />
+      <workItem from="1581684410069" duration="5842000" />
+      <workItem from="1581736055963" duration="17439000" />
+      <workItem from="1581822171533" duration="16280000" />
+      <workItem from="1581991998392" duration="18429000" />
+      <workItem from="1582033446712" duration="2190000" />
+      <workItem from="1582078670539" duration="19611000" />
+      <workItem from="1582165206419" duration="4992000" />
+      <workItem from="1582290693847" duration="6158000" />
+      <workItem from="1582341272617" duration="23019000" />
+      <workItem from="1582427002031" duration="21415000" />
+      <workItem from="1582511748822" duration="24208000" />
+      <workItem from="1582610051473" duration="7619000" />
+      <workItem from="1582617753859" duration="15086000" />
+      <workItem from="1582683746708" duration="17016000" />
+      <workItem from="1582725600002" duration="237000" />
+      <workItem from="1582770159991" duration="24498000" />
+      <workItem from="1582855348946" duration="31025000" />
+      <workItem from="1582942691776" duration="22674000" />
+      <workItem from="1582982218576" duration="4639000" />
+      <workItem from="1583029159688" duration="32660000" />
+      <workItem from="1583117281375" duration="12779000" />
+      <workItem from="1583156392904" duration="1389000" />
+      <workItem from="1583205524381" duration="15693000" />
+      <workItem from="1583241352649" duration="6972000" />
+      <workItem from="1583292875286" duration="14555000" />
+      <workItem from="1583319571370" duration="11935000" />
+      <workItem from="1583336924415" duration="86000" />
+      <workItem from="1583377000089" duration="16322000" />
+      <workItem from="1583412596440" duration="7693000" />
+      <workItem from="1583461314666" duration="13913000" />
+      <workItem from="1583550891763" duration="17290000" />
+      <workItem from="1583572465872" duration="3000" />
+      <workItem from="1583585631522" duration="7383000" />
+      <workItem from="1583635911722" duration="11168000" />
+      <workItem from="1583722678654" duration="4110000" />
+      <workItem from="1583745268156" duration="604000" />
+      <workItem from="1583760250991" duration="5212000" />
+      <workItem from="1583806871440" duration="14703000" />
+      <workItem from="1583894055528" duration="3870000" />
+      <workItem from="1584194191465" duration="3232000" />
+      <workItem from="1584250949575" duration="21000" />
+      <workItem from="1584338844074" duration="126000" />
+      <workItem from="1584345292219" duration="53000" />
+      <workItem from="1584602298707" duration="509000" />
+      <workItem from="1584711712211" duration="60000" />
+      <workItem from="1584712172507" duration="1250000" />
+      <workItem from="1584722162123" duration="245000" />
+      <workItem from="1584722653119" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584722196347">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1584722196347" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1584722665751">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584722665751" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584722410307">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584722410307" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584722410307">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584722410307" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584722410307">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584722410307" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584722410307">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584722410307" />
+    <state x="498" y="0" key="SettingsEditor" timestamp="1584722658462">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584722658462" />
+    <state x="454" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584722162490">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="454" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584722162490" />
+    <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584722289118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1584722289118" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OOTest/OOTest01.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/colour_cold$MyClient.ic" NAME="MyClient Coverage Results" MODIFIED="1583216539885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TCPIP.Case.*</FILTER>
+    </SUITE>
+  </component>
+</project>

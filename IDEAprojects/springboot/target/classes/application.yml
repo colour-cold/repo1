@@ -1,0 +1,39 @@
+#server:
+#  servlet:
+#    context-path: /lsd
+spring:
+  messages:
+    basename: i18n.login
+#person:
+#  name: colour_cold
+#  age: ${random.int}
+#  happy: true
+#  birth: 2020/10/25
+#  map: {k1: v1,k2: v2}
+#  list: [code,music,rap]
+#  dog:
+#    #如果有person.hello就赋值person.hello的值，没有就叫goudan
+#    name: ${person.hello:goudan}
+#    age: ${person.age}
+#
+#dog:
+#  name: 阿黄
+#  age: 3
+#
+#---
+#server:
+#  port: 8080
+#spring:
+#  profiles:
+#    active: test
+#---
+#server:
+#  port: 8081
+#spring:
+#  profiles: dev
+#
+#---
+#server:
+#  port: 8082
+#spring:
+#  profiles: test

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JDBCTest:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21fca0fd-9584-4eb0-a173-5be3ead391f5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z7la1WJuIiTeHznDeQYBBe8u0X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\JDBCTest\JDBCTest\src" />
+      <recent name="D:\IdeaProjects\JDBCTest\JDBCTest\libs" />
+      <recent name="D:\JDBCTest\JDBCTest\libs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DataSource" />
+      <recent name="JDBC.JDBCTest04" />
+      <recent name="JDBC" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\JDBCTest\JDBCTest\libs" />
+      <recent name="D:\IdeaProjects\JDBCTest\JDBCTest\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.JDBCTemplateTest02.test07">
+    <configuration name="JDBCTemplateTest02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringJDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpringJDBC" />
+      <option name="MAIN_CLASS_NAME" value="SpringJDBC.JDBCTemplateTest02" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCTemplateTest02.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringJDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpringJDBC" />
+      <option name="MAIN_CLASS_NAME" value="SpringJDBC.JDBCTemplateTest02" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCTemplateTest02.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringJDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpringJDBC" />
+      <option name="MAIN_CLASS_NAME" value="SpringJDBC.JDBCTemplateTest02" />
+      <option name="METHOD_NAME" value="test05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCTemplateTest02.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringJDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpringJDBC" />
+      <option name="MAIN_CLASS_NAME" value="SpringJDBC.JDBCTemplateTest02" />
+      <option name="METHOD_NAME" value="test06" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCTemplateTest02.test07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringJDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpringJDBC" />
+      <option name="MAIN_CLASS_NAME" value="SpringJDBC.JDBCTemplateTest02" />
+      <option name="METHOD_NAME" value="test07" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JDBCTemplateTest02.test07" />
+        <item itemvalue="JUnit.JDBCTemplateTest02.test06" />
+        <item itemvalue="JUnit.JDBCTemplateTest02" />
+        <item itemvalue="JUnit.JDBCTemplateTest02.test05" />
+        <item itemvalue="JUnit.JDBCTemplateTest02.test04" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21fca0fd-9584-4eb0-a173-5be3ead391f5" name="Default Changelist" comment="" />
+      <created>1584198072756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584198072756</updated>
+      <workItem from="1584198077586" duration="1446000" />
+      <workItem from="1584248475308" duration="14073000" />
+      <workItem from="1584326853037" duration="9908000" />
+      <workItem from="1584343985840" duration="6730000" />
+      <workItem from="1584367369891" duration="4856000" />
+      <workItem from="1584582162492" duration="12798000" />
+      <workItem from="1584602819113" duration="11543000" />
+      <workItem from="1584670872380" duration="10299000" />
+      <workItem from="1584686607606" duration="6000" />
+      <workItem from="1584687227786" duration="11000" />
+      <workItem from="1584722412114" duration="235000" />
+      <workItem from="1584790185450" duration="106000" />
+      <workItem from="1584790338380" duration="212000" />
+      <workItem from="1584792962186" duration="25000" />
+      <workItem from="1584793876876" duration="713000" />
+      <workItem from="1584968684222" duration="603000" />
+      <workItem from="1584969959579" duration="7000" />
+      <workItem from="1584971137956" duration="33000" />
+      <workItem from="1584972512880" duration="112000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584722481152">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1584722481152" />
+    <state x="926" y="201" key="FileChooserDialogImpl" timestamp="1584722637542">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="926" y="201" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584722637542" />
+    <state x="345" y="0" key="SettingsEditor" timestamp="1584722642560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="345" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584722642560" />
+    <state x="442" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584969959035">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584969959035" />
+  </component>
+</project>
