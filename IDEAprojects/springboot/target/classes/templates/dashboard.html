@@ -2,16 +2,16 @@
 <!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/dashboard/ -->
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Dashboard Template for Bootstrap</title>
-    <!-- Bootstrap core CSS -->
+    &lt;!&ndash; Bootstrap core CSS &ndash;&gt;
     <link href="asserts/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    &lt;!&ndash; Custom styles for this template &ndash;&gt;
     <link href="asserts/css/dashboard.css" rel="stylesheet">
     <style type="text/css">
         /* Chart.js */
@@ -38,22 +38,22 @@
             -webkit-animation: chartjs-render-animation 0.001s;
             animation: chartjs-render-animation 0.001s;
         }
-    </style>
+    </style>-->
 </head>
 
 <body>
 <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="http://getbootstrap.com/docs/4.0/examples/dashboard/#">Company
+   <!-- <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="http://getbootstrap.com/docs/4.0/examples/dashboard/#">Company
         name</a>
-    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">-->
     <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-            <a class="nav-link" th:href="@{/user/logout}">Sign out</a>
+            <a class="nav-link" th:href="@{/user/logout}">登出</a>
         </li>
     </ul>
 </nav>
 
-<div class="container-fluid">
+<!--<div class="container-fluid">
     <div class="row">
         <nav class="col-md-2 d-none d-md-block bg-light sidebar">
             <div class="sidebar-sticky">
@@ -91,21 +91,21 @@
                             </svg>
                             Products
                         </a>
-                    </li>
+                    </li>-->
                     <li class="nav-item">
                         <a class="nav-link" th:href="@{/emps}">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                  stroke-linejoin="round" class="feather feather-users">
                                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                                 <circle cx="9" cy="7" r="4"></circle>
                                 <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                            </svg>
-                            员工管理
+                            </svg>-->
+                            员工信息
                         </a>
                     </li>
-                    <li class="nav-item">
+                <!--    <li class="nav-item">
                         <a class="nav-link" href="http://getbootstrap.com/docs/4.0/examples/dashboard/#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -200,7 +200,7 @@
                             </svg>
                             Year-end sale
                         </a>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
         </nav>
@@ -218,8 +218,8 @@
                 </div>
             </div>
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-                <h1 class="h2">Dashboard</h1>
-                <div class="btn-toolbar mb-2 mb-md-0">
+              <!--  <h1 class="h2">Dashboard</h1>
+               <div class="btn-toolbar mb-2 mb-md-0">
                     <div class="btn-group mr-2">
                         <button class="btn btn-sm btn-outline-secondary">Share</button>
                         <button class="btn btn-sm btn-outline-secondary">Export</button>
@@ -235,12 +235,12 @@
                         </svg>
                         This week
                     </button>
-                </div>
+                </div>-->
             </div>
 
-            <canvas class="my-4 chartjs-render-monitor" id="myChart" width="1076" height="454"
+           <!-- <canvas class="my-4 chartjs-render-monitor" id="myChart" width="1076" height="454"
                     style="display: block; width: 1076px; height: 454px;"></canvas>
-
+-->
 
         </main>
     </div>

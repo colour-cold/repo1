@@ -93,17 +93,18 @@
                             Products
                         </a>
                     </li>-->
-                    <li class="nav-item">企业信息页面
-                        <!-- <a class="nav-link" th:href="@{/emps}">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                  stroke-linejoin="round" class="feather feather-users">
-                                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                 <circle cx="9" cy="7" r="4"></circle>
-                                 <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                             </svg>
-                        </a>-->
+                    <li class="nav-item">
+                          <a class="nav-link" th:href="@{/emps}">返回企业信息页
+                            <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                   fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                   stroke-linejoin="round" class="feather feather-users">
+                                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                  <circle cx="9" cy="7" r="4"></circle>
+                                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                              </svg>-->
+
+                        </a>
                     </li>
                   <!--  <li class="nav-item">
                         <a class="nav-link" href="http://getbootstrap.com/docs/4.0/examples/dashboard/#">
@@ -206,146 +207,59 @@
         </nav>
 -->
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-            <h2><a class="btn btn-sm btn-success" href="emp" th:href="@{/emp}">企业添加</a> </h2>
-            <div class="table-responsive">
-                <table class="table table-striped table-sm">
-                    <thead>
-                    <tr>
-                        <th>编号</th>
-                        <th>公司名称</th>
-                        <th>信息编码</th>
-                        <th>行业编码</th>
-                        <th>是否高企</th>
-                        <th>是否规上</th>
-                        <th>密码</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr th:each="emp:${emps}">
-                        <td th:text="${emp.id}"></td>
-                        <td th:text="${emp.comName}"></td>
-                        <td th:text="${emp.code1}"></td>
-                        <td th:text="${emp.code2}"></td>
-                        <td th:text="${emp.isNbCom}==0?'是':'否'"></td>
-                        <td th:text="${emp.isUp}==0?'是':'否'"></td>
-                        <td th:text="${emp.password}"></td>
-                        <td>
-                            <a class="btn btn-sm btn-primary" th:href="@{/emp/}+${emp.id}">编辑</a>
-                            <form th:action="@{/emp/}+${emp.id}" method="post">
-                                <input type="hidden" name="_method" value="delete">
-                            <button type="submit" class="btn btn-sm btn-danger ">删除
-                            </button>
-                            </form>
-                        </td>
-                    </tr>
-                    <!--<tr>
-                        <td>1,002</td>
-                        <td>amet</td>
-                        <td>consectetur</td>
-                        <td>adipiscing</td>
-                        <td>elit</td>
-                    </tr>
-                    <tr>
-                        <td>1,003</td>
-                        <td>Integer</td>
-                        <td>nec</td>
-                        <td>odio</td>
-                        <td>Praesent</td>
-                    </tr>
-                    <tr>
-                        <td>1,003</td>
-                        <td>libero</td>
-                        <td>Sed</td>
-                        <td>cursus</td>
-                        <td>ante</td>
-                    </tr>
-                    <tr>
-                        <td>1,004</td>
-                        <td>dapibus</td>
-                        <td>diam</td>
-                        <td>Sed</td>
-                        <td>nisi</td>
-                    </tr>
-                    <tr>
-                        <td>1,005</td>
-                        <td>Nulla</td>
-                        <td>quis</td>
-                        <td>sem</td>
-                        <td>at</td>
-                    </tr>
-                    <tr>
-                        <td>1,006</td>
-                        <td>nibh</td>
-                        <td>elementum</td>
-                        <td>imperdiet</td>
-                        <td>Duis</td>
-                    </tr>
-                    <tr>
-                        <td>1,007</td>
-                        <td>sagittis</td>
-                        <td>ipsum</td>
-                        <td>Praesent</td>
-                        <td>mauris</td>
-                    </tr>
-                    <tr>
-                        <td>1,008</td>
-                        <td>Fusce</td>
-                        <td>nec</td>
-                        <td>tellus</td>
-                        <td>sed</td>
-                    </tr>
-                    <tr>
-                        <td>1,009</td>
-                        <td>augue</td>
-                        <td>semper</td>
-                        <td>porta</td>
-                        <td>Mauris</td>
-                    </tr>
-                    <tr>
-                        <td>1,010</td>
-                        <td>massa</td>
-                        <td>Vestibulum</td>
-                        <td>lacinia</td>
-                        <td>arcu</td>
-                    </tr>
-                    <tr>
-                        <td>1,011</td>
-                        <td>eget</td>
-                        <td>nulla</td>
-                        <td>Class</td>
-                        <td>aptent</td>
-                    </tr>
-                    <tr>
-                        <td>1,012</td>
-                        <td>taciti</td>
-                        <td>sociosqu</td>
-                        <td>ad</td>
-                        <td>litora</td>
-                    </tr>
-                    <tr>
-                        <td>1,013</td>
-                        <td>torquent</td>
-                        <td>per</td>
-                        <td>conubia</td>
-                        <td>nostra</td>
-                    </tr>
-                    <tr>
-                        <td>1,014</td>
-                        <td>per</td>
-                        <td>inceptos</td>
-                        <td>himenaeos</td>
-                        <td>Curabitur</td>
-                    </tr>
-                    <tr>
-                        <td>1,015</td>
-                        <td>sodales</td>
-                        <td>ligula</td>
-                        <td>in</td>
-                        <td>libero</td>
-                    </tr>-->
-                    </tbody>
-                </table>
-            </div>
+            <!--需要区分是员工修改还是添加；-->
+            <form th:action="@{/emp}" method="post">
+                <!--发送put请求修改员工数据-->
+                <!--
+                1、SpringMVC中配置HiddenHttpMethodFilter;（SpringBoot自动配置好的）
+                2、页面创建一个post表单
+                3、创建一个input项，name="_method";值就是我们指定的请求方式
+                -->
+
+                <input type="hidden" name="_method" value="put" th:if="${emp!=null}" />
+                <input type="hidden" name="id" th:if="${emp!=null}" th:value="${emp.id}">
+                <!--判断是添加还是修改-->
+                <div class="form-group">
+                    LastName<input name="comName" type="text" class="form-control" placeholder="xxx公司" th:value="${emp!=null}?${emp.comName}" >
+                </div>
+                <div class="form-group">
+                    信息代码<input name="code1" type="number" class="form-control" placeholder="111" th:value="${emp!=null}?${emp.code1}">
+                </div>
+                <div class="form-group">
+                    行业代码<input name="code2" type="number" class="form-control" placeholder="222" th:value="${emp!=null}?${emp.code2}">
+                </div>
+                <div class="form-group">
+                    地址<input name="location" type="text" class="form-control" placeholder="江苏苏州" th:value="${emp!=null}?${emp.location}">
+                </div>
+                <div class="form-group">
+                    <br/>
+                    <div class="form-check form-check-inline">
+                        是否高企<br>
+                        <input class="form-check-input" type="radio" name="isNbCom" th:value="${emp!=null}?${emp.isNbCom}">
+                        <label class="form-check-label">是</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="isNbCom" th:value="${emp!=null}?${emp.isNbCom}" >
+                        <label class="form-check-label">否</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <br/>
+                    <div class="form-check form-check-inline">
+                        是否规上<br>
+                        <input class="form-check-input" type="radio" name="isUp" th:value="${emp!=null}?${emp.isUp}">
+                        <label class="form-check-label">是</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="isUp" th:value="${emp!=null}?${emp.isUp}" >
+                        <label class="form-check-label">否</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    密码<input name="password" type="number" class="form-control" placeholder="123456" th:value="${emp!=null}?${emp.password}">
+                </div>
+                <button type="submit" class="btn btn-primary" th:text="${emp!=null}?'修改':'添加'">添加</button>
+            </form>
         </main>
     </div>
 </div>

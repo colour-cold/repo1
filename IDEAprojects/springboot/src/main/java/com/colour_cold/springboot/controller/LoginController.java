@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 public class LoginController {
     @RequestMapping("/user/login")
     public String login(@RequestParam("username") String username, @RequestParam("password") String password, Model model, HttpSession session) {
-        if (!StringUtils.isEmpty(username) && password.equals("123456")) {
+        if (!StringUtils.isEmpty(username) && !StringUtils.isEmpty(password)) {
             session.setAttribute("loginUser", username);
             return "redirect:/main.html";
 

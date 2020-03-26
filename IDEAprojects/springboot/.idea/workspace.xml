@@ -4,7 +4,27 @@
     <option name="showDoc" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbe28a21-cc13-400d-a8e0-39eb1a39eab6" name="Default Changelist" comment="" />
+    <list default="true" id="fbe28a21-cc13-400d-a8e0-39eb1a39eab6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/emp/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colour_cold/springboot/Dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colour_cold/springboot/Dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colour_cold/springboot/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colour_cold/springboot/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colour_cold/springboot/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colour_cold/springboot/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colour_cold/springboot/pojo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colour_cold/springboot/pojo/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/emp/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/emp/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springboot.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/colour_cold/springboot/Dao/DepartmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/colour_cold/springboot/Dao/DepartmentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/colour_cold/springboot/Dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/colour_cold/springboot/Dao/EmployeeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/colour_cold/springboot/config/MyMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/colour_cold/springboot/config/MyMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/colour_cold/springboot/controller/HelloWorldController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/colour_cold/springboot/pojo/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/colour_cold/springboot/pojo/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/emp/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/emp/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,10 +50,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -51,6 +74,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZO3LG6wr1CVOtmCKmOC3AULCfl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -63,9 +87,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/emp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,16 +103,17 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\repositorys\repo1\repo1\IDEAprojects\springboot\src\main\resources\templates\emp" />
+      <recent name="D:\IdeaProjects\springboot\src\main\resources\static" />
+      <recent name="D:\IdeaProjects\springboot\src\main\resources\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\repositorys\repo1\repo1\IDEAprojects\springboot\src\main\resources\templates\emp" />
       <recent name="D:\IdeaProjects\springboot\src\main\resources\templates\error" />
       <recent name="D:\IdeaProjects\springboot\src\main\resources\templates\emp" />
       <recent name="D:\IdeaProjects\springboot\src\main\resources\templates" />
       <recent name="D:\IdeaProjects\springboot\src\main\resources\public" />
-      <recent name="D:\IdeaProjects\springboot\src\main\resources\static" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\springboot\src\main\resources\static" />
-      <recent name="D:\IdeaProjects\springboot\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringbootApplication">
@@ -159,6 +185,7 @@
       <workItem from="1584967025339" duration="40000" />
       <workItem from="1584968306099" duration="592000" />
       <workItem from="1585044863400" duration="29000" />
+      <workItem from="1585199096646" duration="16502000" />
     </task>
     <servers />
   </component>
@@ -170,58 +197,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1584846483091" />
-    <state x="958" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1584941734204">
+    <state x="958" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1585204107321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="958" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584941734204" />
+    <state x="958" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585204107321" />
     <state x="460" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584846143132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="460" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1584846143132" />
-    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584864475087">
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585210314457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584864475087" />
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1584953351354">
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585210314457" />
+    <state width="724" height="205" key="GridCell.Tab.0.bottom" timestamp="1585218182682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584953351354" />
-    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1584953351338">
+    <state width="724" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585218182682" />
+    <state width="724" height="205" key="GridCell.Tab.0.center" timestamp="1585218182682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584953351338" />
-    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1584953351338">
+    <state width="724" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585218182682" />
+    <state width="724" height="205" key="GridCell.Tab.0.left" timestamp="1585218182682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584953351338" />
-    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1584953351354">
+    <state width="724" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585218182682" />
+    <state width="724" height="205" key="GridCell.Tab.0.right" timestamp="1585218182682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584953351354" />
-    <state width="1493" height="206" key="GridCell.Tab.1.bottom" timestamp="1584953351354">
+    <state width="724" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585218182682" />
+    <state width="724" height="205" key="GridCell.Tab.1.bottom" timestamp="1585218182682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584953351354" />
-    <state width="1493" height="206" key="GridCell.Tab.1.center" timestamp="1584953351354">
+    <state width="724" height="205" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585218182682" />
+    <state width="724" height="205" key="GridCell.Tab.1.center" timestamp="1585218182682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584953351354" />
-    <state width="1493" height="206" key="GridCell.Tab.1.left" timestamp="1584953351354">
+    <state width="724" height="205" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585218182682" />
+    <state width="724" height="205" key="GridCell.Tab.1.left" timestamp="1585218182682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584953351354" />
-    <state width="1493" height="206" key="GridCell.Tab.1.right" timestamp="1584953351354">
+    <state width="724" height="205" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585218182682" />
+    <state width="724" height="205" key="GridCell.Tab.1.right" timestamp="1585218182682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584953351354" />
+    <state width="724" height="205" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585218182682" />
     <state x="410" y="13" key="SettingsEditor" timestamp="1584953011624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="13" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584953011624" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584922632712">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585223936821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584922632712" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585223936821" />
     <state x="439" y="5" width="658" height="813" key="find.popup" timestamp="1584861879068">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -230,9 +257,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1584952928468" />
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584946243683">
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585208388054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584946243683" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585208388054" />
   </component>
 </project>

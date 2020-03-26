@@ -3,16 +3,16 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Dashboard Template for Bootstrap</title>
-    <!-- Bootstrap core CSS -->
+    &lt;!&ndash; Bootstrap core CSS &ndash;&gt;
     <link href="../../static/asserts/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    &lt;!&ndash; Custom styles for this template &ndash;&gt;
     <link href="../../static/asserts/css/dashboard.css" rel="stylesheet">
     <style type="text/css">
         /* Chart.js */
@@ -39,11 +39,11 @@
             -webkit-animation: chartjs-render-animation 0.001s;
             animation: chartjs-render-animation 0.001s;
         }
-    </style>
+    </style>-->
 </head>
 
 <body>
-<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+<!--<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
     <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="http://getbootstrap.com/docs/4.0/examples/dashboard/#">Company
         name</a>
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
@@ -92,21 +92,20 @@
                             </svg>
                             Products
                         </a>
+                    </li>-->
+                    <li class="nav-item">企业信息页面
+                        <!-- <a class="nav-link" th:href="@{/emps}">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                  stroke-linejoin="round" class="feather feather-users">
+                                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                 <circle cx="9" cy="7" r="4"></circle>
+                                 <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                             </svg>
+                        </a>-->
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" th:href="@{/emps}">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                 stroke-linejoin="round" class="feather feather-users">
-                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="9" cy="7" r="4"></circle>
-                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                            </svg>
-                            员工管理
-                        </a>
-                    </li>
-                    <li class="nav-item">
+                  <!--  <li class="nav-item">
                         <a class="nav-link" href="http://getbootstrap.com/docs/4.0/examples/dashboard/#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -205,29 +204,41 @@
                 </ul>
             </div>
         </nav>
-
+-->
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-            <h2>Section title</h2>
+            <h2><a class="btn btn-sm btn-success" href="emp" th:href="@{/emp}">企业添加</a> </h2>
             <div class="table-responsive">
                 <table class="table table-striped table-sm">
                     <thead>
                     <tr>
-                        <th>#</th>
-                        <th>Header</th>
-                        <th>Header</th>
-                        <th>Header</th>
-                        <th>Header</th>
+                        <th>编号</th>
+                        <th>公司名称</th>
+                        <th>信息编码</th>
+                        <th>行业编码</th>
+                        <th>是否高企</th>
+                        <th>是否规上</th>
+                        <th>密码</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>1,001</td>
-                        <td>Lorem</td>
-                        <td>ipsum</td>
-                        <td>dolor</td>
-                        <td>sit</td>
+                    <tr th:each="emp:${emps}">
+                        <td th:text="${emp.id}"></td>
+                        <td th:text="${emp.comName}"></td>
+                        <td th:text="${emp.code1}"></td>
+                        <td th:text="${emp.code2}"></td>
+                        <td th:text="${emp.isNbCom}==0?'是':'否'"></td>
+                        <td th:text="${emp.isUp}==0?'是':'否'"></td>
+                        <td th:text="${emp.password}"></td>
+                        <td>
+                            <a class="btn btn-sm btn-primary" th:href="@{/emp/}+${emp.id}">编辑</a>
+                            <form th:action="@{/emp/}+${emp.id}" method="post">
+                                <input type="hidden" name="_method" value="delete">
+                            <button type="submit" class="btn btn-sm btn-danger ">删除
+                            </button>
+                            </form>
+                        </td>
                     </tr>
-                    <tr>
+                    <!--<tr>
                         <td>1,002</td>
                         <td>amet</td>
                         <td>consectetur</td>
@@ -331,7 +342,7 @@
                         <td>ligula</td>
                         <td>in</td>
                         <td>libero</td>
-                    </tr>
+                    </tr>-->
                     </tbody>
                 </table>
             </div>
