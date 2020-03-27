@@ -1,9 +1,16 @@
+server:
+  port: 8081
 #server:
 #  servlet:
 #    context-path: /lsd
 spring:
   messages:
     basename: i18n.login
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+
 #person:
 #  name: colour_cold
 #  age: ${random.int}
