@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background: wheat;
+        }
+        .out{
+            width: 900px;
+            height: 500px;
+            border:8px solid #EEEEEE;
+            background: white;
+            /*让div水平居中*/
+            margin: auto;
+            margin-top: 15px;
+        }
+        .left{
+            margin: 20px;
+            float: left;
+        }
+        .center{
+            border: 1px solid gold;
+            float: left;
+            width: 450px;
+        }
+        .right{
+            margin: 20px;
+            float: right;
+        }
+        .td-left{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<div class="out">
+    <div class="left"><p>新用户注册</p><p>USER REGISTER</p></div>
+    <div class="center">
+        <form>
+        <table>
+            <tr>
+                <td class="td-left">用户名</td>
+                <td class="td-left"><input type="text" name="username" placeholder="请输入账号"></td>
+            </tr>
+            <tr>
+                <td class="td-left">密码</td>
+                <td class="td-left"><input type="text" name="password" placeholder="请输入密码"></td>
+            </tr>
+            <tr>
+                <td class="td-left">Email</td>
+                <td class="td-left"><input type="email" name="email" placeholder="请输入邮箱"></td>
+            </tr>
+            <tr>
+                <td class="td-left">姓名</td>
+                <td class="td-left"><input type="text" name="name" placeholder="请输入姓名"></td>
+            </tr>
+            <tr>
+                <td class="td-left">手机号</td>
+                <td class="td-left"><input type="number" name="phonenumber" placeholder="请输入手机号"></td>
+            </tr>
+            <tr>
+                <td class="td-left">性别</td>
+                <td class="td-left"><input type="radio" name="radio" checked="checked">男
+                    <input type="radio" name="radio">女
+                </td>
+            <tr>
+                <td class="td-left" width="20%">出生日期</td>
+                <td class="td-left" width="80%"><input type="date" name="birthday"></td>
+            </tr>
+            <tr>
+                <td class="td-left">验证码</td>
+                <td class="td-left"><input type="text" name="yanzhengma">
+                    <input type="image" src="samo.jpg" width="50"></td>
+            </tr>
+            <tr>
+                <td class="td-left" class="td-left" colspan="3" align="center">
+                    <button name="button" type="submit">注册</button>
+                </td>
+            </tr>
+        </table>
+        </form>
+    </div>
+    <div class="right">已有账号?<a href="#">立即登录</a></div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字体属性</title>
+    <style>
+
+        div{
+            border: 1px solid yellow;
+            width: 100px;
+        }
+        .div1{
+            width: 200px;
+            height: 200px;
+            padding: 50px;
+            /*
+                设置盒子的属性，让width和height就是盒子最终的大小
+             */
+            box-sizing: border-box;
+        }
+        .div2{
+            width: 100px;
+            height: 100px;
+            /*
+                外边距
+                margin: 50px;
+             */
+        }
+        .div3{
+            float: left;
+        }
+        .div4{
+           float: left;
+        }
+        .div5{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2"></div>
+    </div>
+<div class="div3">aaaa</div>
+<div class="div4">bbbb</div>
+<div class="div5">ccc</div>
+
+</body>
+</html>

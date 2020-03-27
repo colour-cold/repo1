@@ -6,13 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="fbe28a21-cc13-400d-a8e0-39eb1a39eab6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colour_cold/springboot/Dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colour_cold/springboot/Dao/EmployeeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/colour_cold/springboot/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colour_cold/springboot/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/emp/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/emp/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/colour_cold/springboot/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/colour_cold/springboot/controller/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/emp/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/emp/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/.idea/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/.idea/JavaWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/JavaWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/html/Test1文本标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/html/Test1文本标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/html/Test2.图片标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/html/Test2.图片标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/html/Test3.列表标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/html/Test3.列表标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/html/Test4.链接标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/html/Test4.链接标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/html/Test5.块标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/html/Test5.块标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/html/Test6.表格标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/html/Test6.表格标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/html/Test7.表单标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/html/Test7.表单标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/html/Test8.表单项标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/html/Test8.表单项标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/html/Test9.练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/html/Test9.练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/JavaWeb/html/samo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/html/samo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/html.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/html/html.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +189,8 @@
       <workItem from="1585269035800" duration="287000" />
       <workItem from="1585269447563" duration="1878000" />
       <workItem from="1585271612289" duration="240000" />
+      <workItem from="1585283172518" duration="12000" />
+      <workItem from="1585283199523" duration="4000" />
     </task>
     <servers />
   </component>
