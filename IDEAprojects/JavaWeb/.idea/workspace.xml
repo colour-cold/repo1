@@ -24,7 +24,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,6 +38,7 @@
       <recent name="D:\IdeaProjects\JavaWeb" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\JavaWeb\css" />
       <recent name="D:\IdeaProjects\JavaWeb" />
     </key>
   </component>
@@ -61,7 +62,8 @@
       <workItem from="1585181841175" duration="24000" />
       <workItem from="1585224081954" duration="6269000" />
       <workItem from="1585268754364" duration="59000" />
-      <workItem from="1585271858279" duration="1994000" />
+      <workItem from="1585271858279" duration="7135000" />
+      <workItem from="1585283191418" duration="1000" />
     </task>
     <servers />
   </component>
@@ -81,13 +83,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="356" y="136" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585102197866" />
-    <state x="902" y="190" key="run.anything.popup" timestamp="1585234155058">
+    <state x="902" y="190" key="run.anything.popup" timestamp="1585277848230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="902" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585234155058" />
-    <state x="962" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585272895259">
+    <state x="902" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585277848230" />
+    <state x="962" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585276037665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="962" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585272895259" />
+    <state x="962" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585276037665" />
   </component>
 </project>

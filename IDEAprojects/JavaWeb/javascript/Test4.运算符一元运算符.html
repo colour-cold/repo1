@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+        注意：在JS中，如果运算数不是运算符所要求的类型，那么js引擎会自动的将运算数进行类型转换
+        其他类型转number
+        *string转number：按照字面值转换。如果字面值不是数字，则转为NaN(不是数字的数字)
+        *boolean转number:true转为1，false转为0
+     */
+   var a = +"123";
+   document.write(typeof(a)+ "<br>");
+
+   var b = +"abc";
+    document.write(typeof(b)+ "<br>");
+    document.write(b+ "<br>");
+
+    var flag = +true;
+    document.write(typeof(flag) + "<br>");
+    document.write(flag + "<br>");
+</script>
+</body>
+</html>

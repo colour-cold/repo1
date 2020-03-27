@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global对象</title>
+</head>
+<body>
+<script>
+/*
+	Global：
+		1.特点：全局对象，这个Gloabl中封装的方法不需要对象就可以直接调用。方法名()
+		2.方法:
+		    encodeURI()
+		    decodeURI()
+
+		    encodeURIComponent():url编码，编码的字符更多
+		    decodeURIComponent():url编码
+
+		    parseInt()：将字符串转为数字
+		        *逐一判断每一个字符是否是数字，直到不是数字为止，将前边数字部分转为number
+
+		    isNaN()：判断一个值是否是NaN
+		        *NaN六亲不认，连自己都不认。NaN参与的==比较全部为false
+
+		    eval()：将JavaScript字符串转成脚本执行
+		3.URL编码
+ */
+var str1 = "http://www.baidu.com?wd=十七张牌你能秒我？";
+var encode = encodeURI(str1);
+document.write(encode+"<br>");
+var s = decodeURI(encode);
+document.write(s+"<br>");
+
+var str1 = "http://www.baidu.com?wd=十七张牌你能秒我？";
+var encode = encodeURIComponent(str1);
+document.write(encode+"<br>");
+var s = decodeURIComponent(encode);
+document.write(s+"<br>");
+
+var str = "123abc";
+alert(parseInt(str));
+
+var str = "a123abc";
+alert(parseInt(str));
+
+var a = NaN;
+document.write(a==NaN);
+document.write(isNaN(a));
+
+var jscode = "alert(123)";
+eval(jscode);
+</script>
+</body>
+</html>

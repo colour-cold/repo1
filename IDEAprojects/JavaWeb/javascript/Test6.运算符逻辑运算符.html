@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>逻辑运算符</title>
+</head>
+<body>
+<script>
+    /*其他类型转boolean：
+        1.number：0或NaN为假，非0为真
+        2.string:除了空字符串("")，其他都是true
+        3.null&undefined:都是false
+        4.对象：所有对象都是true
+     */
+    var flag = true;
+    document.write(flag+"<br>");
+    document.write(!flag+"<br>");
+
+    document.write("<hr>");
+
+    //number
+    var num1 = 3;
+    var num2 = 0;
+    var num3 = NaN;
+    document.write(!!num1+"<br>");
+    document.write(!!num2+"<br>");
+    document.write(!!num3+"<br>");
+
+    document.write("<hr>");
+
+    //string
+    var str1 = "abc";
+    var str2 = "";
+    document.write(!!str1+"<br>");
+    document.write(!!str2+"<br>");
+
+    document.write("<hr>");
+
+    //null&undefined
+    var obj1 = null;
+    var obj2 = undefined;
+    document.write(!!obj1+"<br>");
+    document.write(!!obj2+"<br>");
+
+    document.write("<hr>");
+
+    //对象
+    var date = new Date();
+    document.write(!!date + "<br>");
+
+    /*
+        if(obj != null) {
+            //防止空指针异常
+        }
+     */
+    if (obj1) {//会自动转换为boolean类型，所以不用写判断条件
+        document.write(123);
+    }
+
+    if (date) {
+        document.write(123)
+    }
+
+
+</script>
+</body>
+</html>
